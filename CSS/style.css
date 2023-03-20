@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+thead {
+  background: #395870;
+  color: #ffffff;
+}
+
+/*o segundo tr, par */
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+tfoot {
+  text-align: right;
+}
+
+tfoot tr:last-child {
+  background: #f0f0f2;
+}
+
+.item-price {
+  text-align: right;
+}
+
+.item-stock,
+.item-quantity {
+  text-align: center;
+}
